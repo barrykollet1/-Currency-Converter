@@ -3,7 +3,7 @@ At this stage, you need to specify what currency you want to exchange. Imagine t
 
 *There is a different amount of currencies in different tests. Checking if input is empty might be really useful.*
 
-Parse the data from FloatRates. You can store it in any collection you want. It's called caching – a simple way to speed up the program. If we need to exchange the same currencies that we have already changed, we won't need to connect to the Internet, we only need to refer to the data in our cache.
+Parse the data from [FloatRates](http://www.floatrates.com/json-feeds.html). You can store it in any collection you want. It's called caching – a simple way to speed up the program. If we need to exchange the same currencies that we have already changed, we won't need to connect to the Internet, we only need to refer to the data in our cache.
 
 *The very first currency is the one you want to exchange.*
 
