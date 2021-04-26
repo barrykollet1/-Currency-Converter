@@ -1,7 +1,7 @@
 # Description
 At this stage, you need to specify what currency you want to exchange. Imagine that you came to the bank with some money in your pocket. You want to choose the best currency to exchange your money for. First, read the currency to exchange, then read the currency you might exchange your money for and the amount of money you want to exchange. Notice that the input number can have a fractional part!
 
-*There is a different amount of currencies in different tests. Checking if input is empty might be really useful.*
+<span style="color:blue">*There is a different amount of currencies in different tests. Checking if input is empty might be really useful.*</span>
 
 Parse the data from [FloatRates](http://www.floatrates.com/json-feeds.html). You can store it in any collection you want. It's called caching – a simple way to speed up the program. If we need to exchange the same currencies that we have already changed, we won't need to connect to the Internet, we only need to refer to the data in our cache.
 
