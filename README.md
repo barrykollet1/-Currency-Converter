@@ -13,7 +13,7 @@ Check the cache — the required currency might be already in there, print the r
 You're in the bank. Think about how much and what kind of currency you have.
 
 1. Take the currency code, the amount of money the user has, and the currency code that the user wants to receive as the user input.
-2. Retrieve the data from FloatRates as in the previous exercises.
+2. Retrieve the data from [FloatRates](http://www.floatrates.com/json-feeds.html) as in the previous exercises.
 3. Save the exchange rates for USD and EUR.
 4. Read the currency to exchange for and the amount of money.
 5. Take a look at the cache. Maybe you already have what you need?
