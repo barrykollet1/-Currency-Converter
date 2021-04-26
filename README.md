@@ -12,22 +12,24 @@ Check the cache — the required currency might be already in there, print the r
 # Objectives
 You're in the bank. Think about how much and what kind of currency you have.
 
-Take the currency code, the amount of money the user has, and the currency code that the user wants to receive as the user input.
-Retrieve the data from FloatRates as in the previous exercises.
-Save the exchange rates for USD and EUR.
-Read the currency to exchange for and the amount of money.
-Take a look at the cache. Maybe you already have what you need?
-If you have the currency in your cache, calculate the amount.
-If not, get it from the site, and calculate the amount.
-Save all the information to your cache.
-Print the results.
-Repeat steps 4-9 until there is no currency left to process.
+1. Take the currency code, the amount of money the user has, and the currency code that the user wants to receive as the user input.
+2. Retrieve the data from FloatRates as in the previous exercises.
+3. Save the exchange rates for USD and EUR.
+4. Read the currency to exchange for and the amount of money.
+5. Take a look at the cache. Maybe you already have what you need?
+6. If you have the currency in your cache, calculate the amount.
+7. If not, get it from the site, and calculate the amount.
+8. Save all the information to your cache.
+9. Print the results.
+10. Repeat steps 4-9 until there is no currency left to process.
 # Examples
 The greater-than symbol followed by a space (> ) represents the user input. Note that it's not part of the input.
 
-Be aware that the dictionary elements are unordered.
-Example 1:
+*Be aware that the dictionary elements are unordered.*
 
+**Example 1:**
+
+```
 > ILS
 > USD
 > 45
@@ -44,8 +46,10 @@ You received 1684.41 RSD.
 Checking the cache...
 Oh! It is in the cache!
 You received 8.38 EUR.
-Example 2:
+```
 
+**Example 2:**
+```
 > USD
 > EUR
 > 20
@@ -72,3 +76,4 @@ You received 467.02 NOK.
 Checking the cache...
 Sorry, but it is not in the cache!
 You received 11708.38 ISK.
+```
